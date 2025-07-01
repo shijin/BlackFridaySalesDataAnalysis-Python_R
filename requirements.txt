@@ -1,0 +1,15 @@
+# Python packages
+
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+
+# R Packages
+
+tidyverse
+janitor
+ggplot
+dplyr
+rmarkdown
