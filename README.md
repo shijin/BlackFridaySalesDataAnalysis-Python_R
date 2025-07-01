@@ -54,6 +54,23 @@ An end-to-end Exploratory Data Analysis project using Python and R
 
 * requirements.txt
 
+### Running the Notebook
+
+- This project was built using Jupyter Notebook and is compatible with Google Colab.
+
+### To Run on Google Colab:
+1. Open this notebook in Colab:  
+   [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/shijin/BlackFridaySalesDataAnalysis-Python_R/blob/main/BlackFridaySales-ExploratoryDataAnalysis.ipynb)
+
+2. Upload the dataset manually:  
+   - Click the file icon (left sidebar in Colab)
+   - Click **Upload**, then select `BlackFriday.csv`  
+   *(or run the cell `from google.colab import files` to upload interactively)*
+
+3. Alternatively, replace the `read_csv()` line with a GitHub raw link:
+```python
+df = pd.read_csv('[https://raw.githubusercontent.com/shijin/HeartDiseaseDataAnalysis-Python_SQL/main/heart.csv](https://github.com/shijin/BlackFridaySalesDataAnalysis-Python_R/blob/main/BlackFriday.csv)')
+
 ## Author
 
 * Shijin Ramesh | Data Analyst 
